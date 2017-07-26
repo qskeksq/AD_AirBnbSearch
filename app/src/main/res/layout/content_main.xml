@@ -37,7 +37,8 @@
                     android:gravity="center"
                     android:text="@string/hint_start_date"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"/>
                 <Button
                     android:id="@+id/btnCheckOut"
                     android:textSize="20dp"
@@ -45,7 +46,8 @@
                     android:gravity="center"
                     android:text="@string/hint_end_date"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"/>
 
             </LinearLayout>
 
