@@ -20,11 +20,22 @@ public class Reservation {
     public String checkIn;
     public String checkOut;
 
-    public int guest;
+    public int guest =1 ;
     public int type;
     public int price_min;
     public int price_max;
 
     public int[] amenity;
+
+    public void setGuestMinus(){
+        if(guest > 1){
+            guest--;
+        }
+    }
+
+    public void setGuestPlus(){
+        guest++;
+    }
+
 
 }
